@@ -20,13 +20,14 @@
 
 {Make a list of websites that you found helpful in this project}
 
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [Kotlin Tutorial | w3schools](https://www.w3schools.com/KOTLIN/index.php)
+- [Kotlin Docs | Kotlin Documentation](http://kotlinlang.org/docs/home.html)
+- [Stack Overflow](https://stackoverflow.com)
 
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
 
-- Item 1
+- Fix the bug where it won't iterate more than once
 - Item 2
 - Item 3

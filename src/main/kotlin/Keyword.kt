@@ -2,6 +2,8 @@ import java.util.Random
 import java.util.Scanner
 
 class Keyword {
+
+    // Create reader for getting input from the user.
     val reader : Scanner = Scanner(System.`in`)
     var keyword = ""
     var progress : String = ""
@@ -39,6 +41,7 @@ class Keyword {
 
     fun display() {
         for ((counter, i) in keyword.indices.withIndex()) {
+            progress = ""
             if (keyword[i] in guesses){
                 progress += keyword[i]
             } else{
