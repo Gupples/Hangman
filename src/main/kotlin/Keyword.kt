@@ -6,8 +6,8 @@ class Keyword {
     // Create reader for getting input from the user.
     val reader : Scanner = Scanner(System.`in`)
     var keyword = ""
-    var progress : String = ""
     var guesses = mutableListOf<Char>()
+    var progress = ""
     var isFound = false
     var emptySlots = 0
     // Create a list of words.
@@ -54,6 +54,7 @@ class Keyword {
 
         } // exit for
         println("Guesses: $guesses")
+        println(progress)
     } // exit display()
 
     fun guess() : Boolean {

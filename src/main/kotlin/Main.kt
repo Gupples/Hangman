@@ -8,8 +8,12 @@ fun main(args: Array<String>) {
 
     var isPlaying = true
     while (isPlaying) {
+        
+        // Guess a letter
         if (!keyword.guess()) {
-            person.miss()
+            
+            // If it was wrong, lose a life.
+            person.missed()
         }
         person.display()
         keyword.display()

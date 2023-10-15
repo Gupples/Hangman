@@ -15,7 +15,7 @@ class Person {
         display()
     }
 
-    fun miss() {
+    fun missed() {
         lives--
         if (lives == 0){
             isDead = true
