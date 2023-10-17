@@ -6,9 +6,7 @@ This program is a game of Hangman. It uses classes (written in Kotlin) to repres
 
 This program is meant to be a demonstration of what I have learned about Kotlin and how to use it after knowing nothing of it beforehand.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/efldvPDrKSM)
 
 # Development Environment
 
