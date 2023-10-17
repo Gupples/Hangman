@@ -1,3 +1,5 @@
+/* Create a person class to hold the image of the person and how many lives are
+    left. */
 class Person {
     var lives = 5
     var isDead= false
