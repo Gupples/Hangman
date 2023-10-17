@@ -1,5 +1,4 @@
-import java.util.Random
-import java.util.Scanner
+import java.util.*
 
 /* Create a class that contains a dictionary of words, picks one at random, and
    handles how the word is displayed to the user. */
@@ -44,14 +43,14 @@ class Keyword {
         "Idolize", "Illicit", "Misread", "Missile", "Mission", "Mistake",
         "Mixture", "Mobster", "Modesty", "Illness", "Imagine", "Impound",
         "Nervous", "Network", "Neurons", "Neutral", "Neutron", "Newborn",
-        "Newsboy", "Upgrade", "Popcorn",)
+        "Newsboy", "Upgrade", "Popcorn")
 
     init {
 
         // Generate a random word.
         val random = Random()
         val index = random.nextInt(dictionary.size)
-        value = dictionary[index].toUpperCase()
+        value = dictionary[index].uppercase(Locale.getDefault())
         emptySlots = value.length
         display()
     }
